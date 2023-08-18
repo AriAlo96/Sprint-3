@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muse Mind | Raffle</title>
+    <link rel="shortcut icon" href="../Images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="encabezado">
+            <div class="menu">
+                <a class="a" href="../../index.html">Home</a>
+                <a class="a" href="./aboutUs.html">About Us</a>
+                <a class="a" href="./contact.html">Contact</a>
+                <a class="a" href="./information.html">More information</a>
+                <a class="a" href="./benefitsTipes.html">Benefits and Tips</a>
+                <a class="a" href="#">Raffle</a>
+            </div>
+            <div class="logo">
+                <img class="imagenlogo" src="../Images/logo.png" alt="logo">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Raffle</h1>
+        <h2 class="h2raffle">You can collaborate to hold an exhibition event and participate in a raffle to win an easel</h2>
+        <div class="contmapform">
+            <div class="location">
+                <h3 class="h3raffle">Our location at:</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.081127232787!2d-58.839321724541215!3d-27.46673357632133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456da69b5a09f9%3A0xcb5282386733f9ec!2sMuseo%20de%20Arte%20Contempor%C3%A1neo!5e0!3m2!1ses!2sar!4v1692218957044!5m2!1ses!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            <form action="./show_data.html" method="get">
+                <h4>Sing Up!</h4>
+                <label for="nam">First Name:</label>
+                <input type="text" id="nam" name="name">
+                <br>
+                <label for="last-nam">Last Name:</label>
+                <input type="text" id="last-nam" name="last-name">
+                <br>
+
+                <br>
+                <label for="them-art">Choose Theme Art</label>
+                <select name="theme-select" id="them-art">
+                    <option value="select">Select option</option>
+                    <option value="surreal-art">Surreal Art</option>
+                    <option value="abstract-art">Abstract Art</option>
+                    <option value="Expressionism">Expressionism</option>
+                </select>
+                <br>
+                <label for="date-art">Choose Theme Art</label>
+                <select name="date-select" id="date-art">
+                    <option value="Select">Select option</option>
+                    <option value="20-08">20/08</option>
+                    <option value="21-08">21/08</option>
+                    <option value="22-08">22/08</option>
+                </select>
+                <h4 class="payment">Payment Options</h4>
+                <input type="radio" id="cash" name="payment" value="cash">
+                <label for="cash">Cash</label>
+                <br>
+                <input type="radio" id="cred-card" name="payment" value="credit-card">
+                <label for="cred-card">Credit Card</label>
+                <br>
+                <input type="radio" id="deb-card" name="payment" value="debit-card">
+                <label for="deb-card">Debit Card</label>
+                <br>
+                <div class="mensaje">
+                    <label for="msj">Message [optional]</label>
+                    <br>
+                    <textarea name="mensaje" id="msj" cols="30" rows="10"></textarea>
+                    <br>
+                </div>
+                <input type="checkbox" id="accept" name="consent" value="accept-term-cond">
+                <label class="terms" for="accept">I accept terms and conditions</label>
+                <input class="boton" type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Created by Ariana Alochis</p>
+    </footer>
+</body>
+
+</html>

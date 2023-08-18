@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./Assets/Style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Registro OSDECo</h1>
+            <h2>Obra Social de Desarrolladores de Corrientes</h2>
+            <h3>Tel: 3794-539820</h3>
+            <h3>E-mail: info@osdeco.com</h3>
+        </div>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.0441134894118!2d-58.84863192454109!3d-27.467885976320616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456d715d00e735%3A0x89876779419b72e2!2sOSDE!5e0!3m2!1ses!2sar!4v1692215423428!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </header>
+    <main>
+        <h3 class="formreg">FORMULARIO DE REGISTRO</h3>
+        <form action="./Assets/Pages/show_data.html" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nom-apell">Nombre y Apellido:</label>
+                <input type="text" id="nom-apell" name="nombre-apellido">
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail" name="E-mail">
+            </fieldset>
+            <fieldset>
+                <legend>Datos consulta</legend>
+                <label for="motivo">Motivo de la consulta</label>
+                <select name="motivo-seleccionado" id="motivo">
+                    <option value="">Selecciona una opción</option>
+                    <option value="conocer-planes-precios">Quiero conocer sus planes y precios</option>
+                    <option value="enviar-cv">Quiero enviarles mi CV</option>
+                    <option value="hacer-reclamo">Quiero hacer un reclamo</option>
+                    <option value="Otra">Otros</option>
+                </select>
+                <br>
+                <div class="areaconsulta">
+                    <label for="msj">Contanos detalladamente cuál es tu consulta para que podamos ayudarte:</label>
+                    <textarea name="mensaje" id="msj" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>¿En qué momento preferís que nos comuniquemos?</p>
+                <input type="checkbox" id="mañ" name="horario-contacto" value="mañana">
+                <label for="mañ">Por la mañana</label>
+                <br>
+                <input type="checkbox" id="tard" name="medio-contacto" value="tarde">
+                <label for="tard">Por la tarde</label>
+                <br>
+                <input type="checkbox" id="noch" name="medio-contacto" value="noche">
+                <label for="noch">Por la noche</label>
+
+            </fieldset>
+
+            <input class="boton" type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+
+</html>

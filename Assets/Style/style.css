@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(231, 226, 236);
+    min-height: 35rem;
+}
+
+nav {
+    height: 5rem;
+    background-color: rgb(211, 197, 224);
+}
+
+.menu {
+    display: flex;
+    height: 5rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+a {
+    background-color: rgb(132, 34, 161);
+    color: aliceblue;
+    padding: 0.5rem;
+    text-align: center;
+    width: 8rem;
+    border-radius: 2rem;
+    border: 2px solid rgb(195, 137, 212);
+    margin-left: 0.5rem;
+}
+
+.a:hover {
+    background-color: rgb(196, 183, 207);
+    transform: scale(1.1);
+    border-radius: 2rem;
+    border: 2px solid rgb(132, 34, 161);
+    color: rgb(132, 34, 161);
+}
+
+.encabezado {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 50rem;
+}
+
+.imagenlogo:hover {
+    transform: scale(1.50);
+}
+
+img {
+    width: 6rem;
+}
+
+h1,
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.h2raffle {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(195, 179, 211);
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.imagen1 {
+    width: 90%;
+    height: 22rem;
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+.imagen1:hover {
+    border: solid 0.3rem rgb(132, 34, 161);
+}
+
+.contenido2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.imagen2 {
+    width: 50%;
+    height: 5%;
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+.imagen2:hover {
+    border: solid 0.3rem rgb(132, 34, 161);
+}
+
+.parrafo1 {
+    width: 20rem;
+    font-size: 1.25rem;
+    margin-right: 4rem;
+}
+
+.parrafo1:hover {
+    transform: scale(1.20);
+}
+
+.imagen3 {
+    width: 25rem;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.imagen3:hover {
+    transform: scale(1.08);
+}
+
+.cont1 , .cont2, .cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.parrafo2 {
+    width: 25rem;
+    font-size: 1.8rem;
+}
+
+.parrafo2:hover {
+    text-shadow: 0.2rem 0.2rem 0.8rem rgb(81, 7, 104);
+}
+
+.contaboutus {
+    padding-bottom: 2rem;
+}
+
+.contact1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen4 {
+    width: 50%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+}
+
+.imagen4:hover {
+    transform: scale(1.05);
+}
+
+.contact2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 14rem;
+    font-family: cursive;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.mail:hover {
+    height: 2rem;
+    background-color: rgb(195, 179, 211);
+    color: rgb(132, 34, 161);
+    border: solid rgb(132, 34, 161);
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 14rem;
+    font-family: cursive;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.tel:hover {
+    height: 2rem;
+    background-color: rgb(195, 179, 211);
+    color: rgb(132, 34, 161);
+    border: solid rgb(132, 34, 161);
+}
+
+.maincontact {
+    padding-bottom: 1rem;
+}
+
+.divtable {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    font-size: 2rem;
+    border: solid rgb(155, 101, 206);
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+.izquierda,
+.medio,
+.derecha {
+    padding: 1rem;
+    border: solid rgb(155, 101, 206);
+}
+
+.trhead {
+    background-color: rgb(98, 43, 150);
+    color: aliceblue;
+}
+
+tr>td:hover {
+    background-color: rgb(202, 169, 212);
+}
+
+.main {
+    height: 31rem;
+}
+
+.contenedorgeneralimg5 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+}
+
+.contenedorimagen5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imagen5 {
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+    border: solid 0.15rem rgb(155, 101, 206);
+    margin-bottom: 2rem;
+}
+
+.imagen5:hover {
+    transform: scale(1.1);
+}
+
+.benefits {
+    padding-top: 3rem;
+}
+
+.benefits:hover {
+    color: rgb(132, 69, 190);
+}
+
+.tips {
+    padding-top: 9rem;
+}
+
+.tips:hover {
+    color: rgb(132, 69, 190);
+}
+
+ul {
+    width: 20rem;
+    font-size: 1.25rem;
+    margin-right: 4rem;
+}
+
+ul>li:hover {
+    color: rgb(155, 101, 206)
+}
+
+li {
+    padding: 0.5rem;
+}
+
+.contmapform {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.terms {
+    font-size: 0.8rem;
+}
+
+iframe {
+    width: 30rem;
+    height: 25rem;
+    padding-top: 0.5rem;
+    padding-right: 3rem;
+}
+
+form {
+    padding: 1rem;
+    border: solid 2px rgb(155, 101, 206);
+}
+
+.mensaje {
+    margin-top: 1rem;
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+.payment {
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    a {
+        width: 6rem;
+        font-size: 0.9rem;
+    }
+
+    .imagen1 {
+        height: 20rem;
+    }
+
+    .imagen2 {
+        margin-right: 5rem;
+    }
+
+    .cont1 , .cont2 , .cont3 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+
+    .table {
+        font-size: 1.5rem;
+    }
+
+    .contenedorlistas {
+        margin-left: 5rem;
+    }
+
+    iframe {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .encabezado {
+        background-color: rgb(231, 226, 236);
+        height: 15rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+        width: 7rem;
+        font-size: 0.8rem;
+
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 15rem;
+        height: 16rem;
+        background-color: rgb(211, 197, 224);
+        border-radius: 10%;
+        margin-left: 1rem;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido2 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .parrafo1 {
+        width: 22rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .imagenlogo {
+        width: 10rem;
+        height: 10rem;
+        margin-top: 1rem;
+        margin-right: 4rem;
+    }
+
+    .imagen1 {
+        height: 15rem;
+    }
+
+    .imagen2 {
+        width: 80%;
+        height: 30%;
+        margin-right: 5rem;
+    }
+
+    .imagen3 {
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .cont1 , .cont2 , .cont3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .parrafo2 {
+        text-align: center;
+    }
+
+    .contenedorlistas {
+    margin-left: 5rem;
+}
+
+    iframe {
+    width: 25rem;
+} 
+
+ .cont1 , .cont2, .cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding-bottom: 2rem;
+} 
+ .imagen4 {
+    width: 20rem;
+    height: 25rem;
+ }
+ .parrafo3 {
+    text-align: center;
+ }
+ .contact2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+ }
+ .table {
+    font-size: 0.9rem;
+ }
+ .h1info {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+ }
+ .h2info {
+    font-size: 1.3rem;
+ }
+
+ li {
+    font-size: 0.8rem;
+    width: 10rem;
+ }
+  ul {
+    width: 20rem;
+  }
+  .imagen5 {
+    width: 10rem;
+    height: 15rem;
+  }
+.listas {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contenedorimagen5 {
+    margin-left: 5rem;
+}
+
+.contmapform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    margin-top: 2rem;
+}
+
+iframe {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+}
+.h3raffle {
+    text-align: center;
+}
+}
